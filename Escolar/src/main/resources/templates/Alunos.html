@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript" src="js/jquery-2.2.1.js"></script>
+<script type="text/javascript" src="js/alunos.js"></script>
+
+<!-- bootstrap - link cdn -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<!-- incluindo css -->
+<link href="css/style.css" rel="stylesheet">
+
+<title>Alunos</title>
+
+</head>
+<body>
+	<div class="container" align="center">
+	
+	<h2>Procurar aluno</h2>
+	<br />
+	
+		<table class="table">
+			<tr>
+				<td><label for="nome">ID: </label></td>
+				<td><div><input class="form-control" width="3" type="text" id="id" /><br /><button class="btn btn-default" id="btn_pesquisar">Pesquisar</button>
+		</div></td>
+			</tr>
+			<tr>
+				<td><label for="nome">Nome: </label></td>
+				<td><input class="form-control" type="text" id="nome" /></td>
+			</tr>
+			<tr>
+				<td><label for="nome">RA: </label></td>
+				<td><input class="form-control" type="text" id="ra" /></td>
+			</tr>
+			<tr>
+				<td><label for="nome">CPF: </label></td>
+				<td><input class="form-control input-campo" type="text" id="cpf" /></td>
+			</tr>
+		</table>
+		<br />
+		<br />
+		<br />
+		<button id="btn_salvar" class="btn btn-success">Salvar</button>
+		<button id="btn_alterar" class="btn btn-default">Alterar</button>
+		<button id="btn_remover" class="btn btn-default">Deletar</button>
+	</div>
+</body>
+</html>
