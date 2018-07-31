@@ -43,6 +43,5 @@ public class AlunoController {
 		ModelAndView modelAndView = new ModelAndView("ListaAlunos");
 		return modelAndView;
 	}
-	
 
 }
